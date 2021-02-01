@@ -1,6 +1,6 @@
 title: Anonymisation - Etude de PostgreSQL Anonymizer
 logo: /assets/img/logo.svg
-description: Anonymisation base de données avec Postgresql anonymizer.
+description: Anonymisation base de données avec Postgresql anonymizer
 show_downloads: true
 google_analytics:
 remote_theme: scub-france/minimal
