@@ -1,0 +1,6 @@
+title: Test
+logo: /assets/img/logo.svg
+description: Minimal is a theme for GitHub Pages.
+show_downloads: true
+google_analytics:
+remote_theme: scub-france/minimal
