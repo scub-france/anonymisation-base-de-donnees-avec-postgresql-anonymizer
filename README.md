@@ -72,13 +72,13 @@ Dans cet exemple, nous allons générer avec PostgreSQL Anonymizer, un dump anon
 ### Présentation de l'exemple
 Nous allons prendre un exemple simpliste d'une base de données bancaires contenant une table **_personne_** avec leurs nom, prénom, date de naissance, coordonnées et commentaire et une table **_compte_bancaire_** d'une personne contenant la date d'ouverture, l'IBAN et le montant qu'il y a sur le compte.
 
-![Diagramme de la base](./db_compte.png)
+<a href="https://scub-france.github.io/anonymisation-base-de-donnees-avec-postgresql-anonymizer/db_compte.png" target="_blank">![Diagramme de la base](./db_compte.png)</a>
 
 Voici le contenu des tables :
 
-![Table personne](./table_personne.png)
+<a href="https://scub-france.github.io/anonymisation-base-de-donnees-avec-postgresql-anonymizer/table_personne.png" target="_blank">![Table personne](./table_personne.png)</a>
 
-![Table compte bancaire](./table_compte_bancaire.png)
+<a href="https://scub-france.github.io/anonymisation-base-de-donnees-avec-postgresql-anonymizer/table_compte_bancaire.png" target="_blank">![Table compte bancaire](./table_compte_bancaire.png)</a>
 
 ### Installation de PostgresSQL Anonymizer
 Récupérer la dernière version de l'image docker de PostgreSQL Anonymizer :
@@ -233,9 +233,9 @@ docker exec -i test_pganonymizer_container pg_dump_anon -h localhost -U test_pga
 ```
 
 Une fois le dump anonyme restauré sur une autre base, voici le résultat de l'anonymisation :
-![Table personne anonymisée](./table_personne_anonyme.png)
+<a href="https://scub-france.github.io/anonymisation-base-de-donnees-avec-postgresql-anonymizer/table_personne_anonyme.png" target="_blank">![Table personne anonymisée](./table_personne_anonyme.png)</a>
 
-![Table compte bancaire anonymisée](./table_compte_bancaire_anonyme.png)
+<a href="https://scub-france.github.io/anonymisation-base-de-donnees-avec-postgresql-anonymizer/table_compte_bancaire_anonyme.png" target="_blank">![Table compte bancaire anonymisée](./table_compte_bancaire_anonyme.png)</a>
 
 Une fois l'anonymisation terminé, vous pouvez faire un peu de nettoyage (arrêt et suppression du conteneur) :
 ```bash
